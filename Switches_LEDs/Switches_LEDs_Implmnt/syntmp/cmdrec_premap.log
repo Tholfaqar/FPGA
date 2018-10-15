@@ -1,0 +1,13 @@
+C:\lscc\iCEcube2.2017.08\synpbase\bin64\m_generic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  C:\git\FPGA\Switches_LEDs\Switches_LEDs_Implmnt   -part iCE40HX1K  -package VQ100    -maxfan 10000 -RWCheckOnRam 0 -pipe -fixgatedclocks 1 -fixgeneratedclocks 1 -summaryfile C:\git\FPGA\Switches_LEDs\Switches_LEDs_Implmnt\synlog\report\Switches_LEDs_premap.xml  -oedif  C:\git\FPGA\Switches_LEDs\Switches_LEDs_Implmnt\Switches_LEDs.edf  -conchk_prepass  C:\git\FPGA\Switches_LEDs\Switches_LEDs_Implmnt\Switches_LEDs_cck.rpt   -autoconstraint  -freq 1.000   C:\git\FPGA\Switches_LEDs\Switches_LEDs_Implmnt\synwork\Switches_LEDs_mult.srs  -flow prepass  -gcc_prepass  -osrd  C:\git\FPGA\Switches_LEDs\Switches_LEDs_Implmnt\synwork\Switches_LEDs_prem.srd  -qsap  C:\git\FPGA\Switches_LEDs\Switches_LEDs_Implmnt\Switches_LEDs.sap  -devicelib  C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v  -ologparam  C:\git\FPGA\Switches_LEDs\Switches_LEDs_Implmnt\syntmp\Switches_LEDs.plg  -osyn  C:\git\FPGA\Switches_LEDs\Switches_LEDs_Implmnt\synwork\Switches_LEDs_prem.srd  -prjdir  C:\git\FPGA\Switches_LEDs\  -prjname  Switches_LEDs_syn  -log  C:\git\FPGA\Switches_LEDs\Switches_LEDs_Implmnt\synlog\Switches_LEDs_premap.srr 
+rc:0 success:1 runtime:2
+file:C:\git\FPGA\Switches_LEDs\Switches_LEDs_Implmnt\Switches_LEDs.edf|io:o|time:0|size:0|exec:0
+file:C:\git\FPGA\Switches_LEDs\Switches_LEDs_Implmnt\Switches_LEDs_cck.rpt|io:o|time:1534300474|size:2056|exec:0
+file:C:\git\FPGA\Switches_LEDs\Switches_LEDs_Implmnt\synwork\Switches_LEDs_mult.srs|io:i|time:1534300472|size:1366|exec:0
+file:C:\git\FPGA\Switches_LEDs\Switches_LEDs_Implmnt\synwork\Switches_LEDs_prem.srd|io:o|time:1534300474|size:1418|exec:0
+file:C:\git\FPGA\Switches_LEDs\Switches_LEDs_Implmnt\Switches_LEDs.sap|io:o|time:1534300474|size:125|exec:0
+file:C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v|io:i|time:1534283734|size:224837|exec:0
+file:C:\git\FPGA\Switches_LEDs\Switches_LEDs_Implmnt\syntmp\Switches_LEDs.plg|io:o|time:1534300473|size:0|exec:0
+file:C:\git\FPGA\Switches_LEDs\Switches_LEDs_Implmnt\synwork\Switches_LEDs_prem.srd|io:o|time:1534300474|size:1418|exec:0
+file:C:\git\FPGA\Switches_LEDs\Switches_LEDs_Implmnt\synlog\Switches_LEDs_premap.srr|io:o|time:1534300474|size:2938|exec:0
+file:C:\lscc\iCEcube2.2017.08\synpbase\bin\m_generic.exe|io:i|time:1534283723|size:17853440|exec:1
+file:C:\lscc\iCEcube2.2017.08\synpbase\bin64\m_generic.exe|io:i|time:1534283728|size:32355840|exec:1

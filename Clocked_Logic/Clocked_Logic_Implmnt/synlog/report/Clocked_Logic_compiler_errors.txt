@@ -1,0 +1,2 @@
+@E: CS187 :"C:\git\FPGA\Clocked_Logic.v":4:16:4:16|Expecting ;
+

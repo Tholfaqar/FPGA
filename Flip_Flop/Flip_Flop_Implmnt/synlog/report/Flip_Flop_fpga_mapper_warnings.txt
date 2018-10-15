@@ -1,0 +1,2 @@
+@W: FX1039 :"c:\git\fpga\flip_flop.v":9:0:9:5|User-specified initial value defined for instance r_LED_1 is being ignored. 
+@W: FX1039 :"c:\git\fpga\flip_flop.v":9:0:9:5|User-specified initial value defined for instance r_Switch_1 is being ignored. 

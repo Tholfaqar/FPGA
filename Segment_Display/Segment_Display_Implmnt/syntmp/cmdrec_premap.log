@@ -1,0 +1,14 @@
+C:\lscc\iCEcube2.2017.08\synpbase\bin64\m_generic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  C:\git\FPGA\Segment_Display\Segment_Display_Implmnt   -part iCE40HX1K  -package VQ100    -maxfan 10000 -RWCheckOnRam 0 -pipe -fixgatedclocks 1 -fixgeneratedclocks 1 -summaryfile C:\git\FPGA\Segment_Display\Segment_Display_Implmnt\synlog\report\Segment_Display_premap.xml  -oedif  C:\git\FPGA\Segment_Display\Segment_Display_Implmnt\Segment_Display.edf  -conchk_prepass  C:\git\FPGA\Segment_Display\Segment_Display_Implmnt\Segment_Display_cck.rpt   -autoconstraint  -freq 1.000   -tcl  C:\git\FPGA\Go_Board_Clock_Constraint.sdc  C:\git\FPGA\Segment_Display\Segment_Display_Implmnt\synwork\Segment_Display_mult.srs  -flow prepass  -gcc_prepass  -osrd  C:\git\FPGA\Segment_Display\Segment_Display_Implmnt\synwork\Segment_Display_prem.srd  -qsap  C:\git\FPGA\Segment_Display\Segment_Display_Implmnt\Segment_Display.sap  -devicelib  C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v  -ologparam  C:\git\FPGA\Segment_Display\Segment_Display_Implmnt\syntmp\Segment_Display.plg  -osyn  C:\git\FPGA\Segment_Display\Segment_Display_Implmnt\synwork\Segment_Display_prem.srd  -prjdir  C:\git\FPGA\Segment_Display\  -prjname  Segment_Display_syn  -log  C:\git\FPGA\Segment_Display\Segment_Display_Implmnt\synlog\Segment_Display_premap.srr 
+rc:0 success:1 runtime:2
+file:C:\git\FPGA\Segment_Display\Segment_Display_Implmnt\Segment_Display.edf|io:o|time:0|size:0|exec:0
+file:C:\git\FPGA\Segment_Display\Segment_Display_Implmnt\Segment_Display_cck.rpt|io:o|time:1534406433|size:2258|exec:0
+file:C:\git\FPGA\Go_Board_Clock_Constraint.sdc|io:i|time:1534308402|size:356|exec:0
+file:C:\git\FPGA\Segment_Display\Segment_Display_Implmnt\synwork\Segment_Display_mult.srs|io:i|time:1534406431|size:3132|exec:0
+file:C:\git\FPGA\Segment_Display\Segment_Display_Implmnt\synwork\Segment_Display_prem.srd|io:o|time:1534406433|size:6693|exec:0
+file:C:\git\FPGA\Segment_Display\Segment_Display_Implmnt\Segment_Display.sap|io:o|time:1534406433|size:673|exec:0
+file:C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v|io:i|time:1534283734|size:224837|exec:0
+file:C:\git\FPGA\Segment_Display\Segment_Display_Implmnt\syntmp\Segment_Display.plg|io:o|time:1534406432|size:0|exec:0
+file:C:\git\FPGA\Segment_Display\Segment_Display_Implmnt\synwork\Segment_Display_prem.srd|io:o|time:1534406433|size:6693|exec:0
+file:C:\git\FPGA\Segment_Display\Segment_Display_Implmnt\synlog\Segment_Display_premap.srr|io:o|time:1534406433|size:3126|exec:0
+file:C:\lscc\iCEcube2.2017.08\synpbase\bin\m_generic.exe|io:i|time:1534283723|size:17853440|exec:1
+file:C:\lscc\iCEcube2.2017.08\synpbase\bin64\m_generic.exe|io:i|time:1534283728|size:32355840|exec:1

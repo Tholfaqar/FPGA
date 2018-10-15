@@ -1,0 +1,2 @@
+@E: CG829 :"C:\git\FPGA\Switches_LEDs.v":9:16:9:16|Unexpected ) after comma -- missing port in ANSI port list
+

@@ -1,0 +1,2 @@
+@W: CL169 :"C:\git\FPGA\flip_flop.v":9:0:9:5|Pruning unused register r_Switch_1. Make sure that there are no unused intermediate registers.
+

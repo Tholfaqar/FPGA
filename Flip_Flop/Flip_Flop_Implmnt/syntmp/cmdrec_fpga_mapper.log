@@ -1,0 +1,15 @@
+C:\lscc\iCEcube2.2017.08\synpbase\bin64\m_generic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  C:\git\FPGA\Flip_Flop\Flip_Flop_Implmnt   -part iCE40HX1K  -package VQ100    -maxfan 10000 -RWCheckOnRam 0 -pipe -fixgatedclocks 1 -fixgeneratedclocks 1 -summaryfile C:\git\FPGA\Flip_Flop\Flip_Flop_Implmnt\synlog\report\Flip_Flop_fpga_mapper.xml  -flow mapping  -multisrs  -oedif  C:\git\FPGA\Flip_Flop\Flip_Flop_Implmnt\Flip_Flop.edf   -autoconstraint  -freq 1.000   -tcl  C:\git\FPGA\Go_Board_Clock_Constraint.sdc  C:\git\FPGA\Flip_Flop\Flip_Flop_Implmnt\synwork\Flip_Flop_prem.srd  -sap  C:\git\FPGA\Flip_Flop\Flip_Flop_Implmnt\Flip_Flop.sap  -otap  C:\git\FPGA\Flip_Flop\Flip_Flop_Implmnt\Flip_Flop.tap  -omap  C:\git\FPGA\Flip_Flop\Flip_Flop_Implmnt\Flip_Flop.map  -devicelib  C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v  -sap  C:\git\FPGA\Flip_Flop\Flip_Flop_Implmnt\Flip_Flop.sap  -ologparam  C:\git\FPGA\Flip_Flop\Flip_Flop_Implmnt\syntmp\Flip_Flop.plg  -osyn  C:\git\FPGA\Flip_Flop\Flip_Flop_Implmnt\Flip_Flop.srm  -prjdir  C:\git\FPGA\Flip_Flop\  -prjname  Flip_Flop_syn  -log  C:\git\FPGA\Flip_Flop\Flip_Flop_Implmnt\synlog\Flip_Flop_fpga_mapper.srr 
+rc:1 success:1 runtime:3
+file:C:\git\FPGA\Flip_Flop\Flip_Flop_Implmnt\Flip_Flop.edf|io:o|time:1534310538|size:7182|exec:0
+file:C:\git\FPGA\Go_Board_Clock_Constraint.sdc|io:i|time:1534308402|size:356|exec:0
+file:C:\git\FPGA\Flip_Flop\Flip_Flop_Implmnt\synwork\Flip_Flop_prem.srd|io:i|time:1534310535|size:2042|exec:0
+file:C:\git\FPGA\Flip_Flop\Flip_Flop_Implmnt\Flip_Flop.sap|io:o|time:1534310535|size:361|exec:0
+file:C:\git\FPGA\Flip_Flop\Flip_Flop_Implmnt\Flip_Flop.tap|io:o|time:0|size:0|exec:0
+file:C:\git\FPGA\Flip_Flop\Flip_Flop_Implmnt\Flip_Flop.map|io:o|time:1534310538|size:28|exec:0
+file:C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v|io:i|time:1534283734|size:224837|exec:0
+file:C:\git\FPGA\Flip_Flop\Flip_Flop_Implmnt\Flip_Flop.sap|io:o|time:1534310535|size:361|exec:0
+file:C:\git\FPGA\Flip_Flop\Flip_Flop_Implmnt\syntmp\Flip_Flop.plg|io:o|time:1534310538|size:465|exec:0
+file:C:\git\FPGA\Flip_Flop\Flip_Flop_Implmnt\Flip_Flop.srm|io:o|time:1534310537|size:8939|exec:0
+file:C:\git\FPGA\Flip_Flop\Flip_Flop_Implmnt\synlog\Flip_Flop_fpga_mapper.srr|io:o|time:1534310538|size:12275|exec:0
+file:C:\lscc\iCEcube2.2017.08\synpbase\bin\m_generic.exe|io:i|time:1534283723|size:17853440|exec:1
+file:C:\lscc\iCEcube2.2017.08\synpbase\bin64\m_generic.exe|io:i|time:1534283728|size:32355840|exec:1
